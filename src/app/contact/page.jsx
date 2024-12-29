@@ -66,7 +66,7 @@ const page = () => {
                 <MapPin className="text-primary" />
                 <div>
                   <h3 className="font-medium">Location</h3>
-                  <p>Lajpat Nagar gym</p>
+                  <p>Lifeline Gym,Lajpat Nagar</p>
                 </div>
               </div>
             </div>
