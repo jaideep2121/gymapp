@@ -75,7 +75,7 @@ const page = () => {
 
             <div className="mt-8 grid grid-cols-1 gap-5">
               <Link
-                href="https://wa.me/9650017189"
+                href="https://wa.me/+919650017189"
                 target="_blank"
                 className="inline-flex w-[210px] h-[58px] items-center space-x-2 bg-[#25D366] text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-opacity"
               >
