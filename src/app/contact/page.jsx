@@ -83,7 +83,7 @@ const page = () => {
 
               
               <Link
-                href="https://instagram.com/trainer"
+                href="https://www.instagram.com/sachinkfitness/?hl=en"
                 target="_blank"
                 className="inline-flex w-[210px] h-[58px] items-center space-x-2 bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-opacity"
               >
