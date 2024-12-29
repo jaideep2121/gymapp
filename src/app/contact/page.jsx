@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { Phone, Mail, MapPin, Send, MessageCircle, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, MessageCircle, Instagram, Loader2 } from 'lucide-react';
 
 
 import Link from 'next/link';
@@ -14,15 +14,17 @@ import { datastore } from '../actions/data';
 
 const page = () => {
     const[fromdata,newformdata]=useState({firstname:'',email:'',phoneno:'',message:''});
+    const[loading,setloading]=useState(false);
 
    async function submithandller(e){
         e.preventDefault(); 
         try{
+          setloading(true);
             const res=await datastore(fromdata);
             console.log(res);
 
 
-
+              setloading(false);
             toast.success("Succesfully submitted")
             newformdata({firstname:'',email:'',phoneno:'',message:''});
             console.log(fromdata);
@@ -154,8 +156,12 @@ onChange={changehandler}
                 type="submit"
                 className="w-full bg-black text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-flex items-center justify-center space-x-2"
               >
-                <Send size={20} />
-                <span>Send Message</span>
+               {
+                loading?<Loader2></Loader2>: <Send size={20} />
+               }
+                <span>{
+                  loading?'Loading...':'Send Message'
+                }</span>
               </button>
 
           </form>
