@@ -15,13 +15,13 @@ const page = () => {
             name: 'Push-ups',
             description: 'Basic upper body exercise targeting chest, shoulders, and triceps.',
             sets: '3 sets of 10 reps',
-            video: "https://www.youtube.com/embed/IODxDxX7oi4?si=YuU4iKKqvaj0OdSO",
+            video: "https://youtube.com/embed/At8PRTDDhrU?si=yKPPb-f8Nw0_SvFt",
           },
           {
             name: 'Bodyweight Squats',
             description: 'Fundamental lower body exercise for legs and core strength.',
             sets: '3 sets of 15 reps',
-            video: 'https://www.youtube.com/embed/8uoaYwS6iFM?si=knv69JeNkpiS3pyq',
+            video: 'https://www.youtube.com/embed/n_xLyzPEX7A',
           },
           // Add more beginner exercises
         ],
@@ -30,13 +30,13 @@ const page = () => {
             name: 'Dumbbell Bench Press',
             description: 'Chest exercise with dumbbells for increased strength.',
             sets: '4 sets of 12 reps',
-            video: 'https://example.com/bench-press',
+            video: 'https://www.youtube.com/embed/z6A4W5Dib28',
           },
           {
             name: 'Barbell Squats',
             description: 'Advanced lower body exercise with barbell.',
             sets: '4 sets of 10 reps',
-            video: 'https://example.com/barbell-squats',
+            video: 'https://www.youtube.com/embed/0zECQ7qyCRM',
           },
           // Add more intermediate exercises
         ],
@@ -45,13 +45,13 @@ const page = () => {
             name: 'Clean and Jerk',
             description: 'Olympic weightlifting movement for full body power.',
             sets: '5 sets of 3-5 reps',
-            video: 'https://example.com/clean-jerk',
+            video: 'https://www.youtube.com/embed/VwNkc1QYUGA',
           },
           {
             name: 'Muscle Ups',
             description: 'Advanced calisthenics movement combining pull-up and dip.',
             sets: '4 sets of 3-5 reps',
-            video: 'https://example.com/muscle-ups',
+            video: 'https://www.youtube.com/embed/ab6QVmYzns0',
           },
           // Add more advanced exercises
         ],
