@@ -15,20 +15,7 @@ const Navbar = () => {
         
         
         }
-        const { setTheme } = useTheme()
 
-        const toggleTheme=()=>{
-          setTheme('dark');
-          SetisDark(true);
-  
-      }
-  
-      const toggleTheme2=()=>{
-          setTheme('light');
-          SetisDark(false);
-  
-      }
-      const [isDark,SetisDark]=useState(false);
   return (
     <nav className="fixed w-full z-50 bg-background/80 backdrop-blur-sm border-b-2 border-border">
           <div className="container mx-auto px-4">
@@ -37,13 +24,7 @@ const Navbar = () => {
                 <Dumbbell className="h-6 w-6" />
                 <span className="font-bold text-lg">Elite Fitness</span>
               </Link>
-              <div>
-                {
-                  
-       isDark?<Moon onClick={toggleTheme2}></Moon>:<Sun onClick={toggleTheme}></Sun>
-    
-                }
-              </div>
+         
               
               <div className="hidden md:flex space-x-8">
                 <Link href="/" className="text-foreground/80 hover:text-gray-700 transition-colors">
