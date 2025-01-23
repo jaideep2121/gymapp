@@ -12,10 +12,10 @@ const page = () => {
     const exercises = {
         beginner: [
           {
-            name: 'Push-ups',
+            name: 'Cross-over',
             description: 'Basic upper body exercise targeting chest, shoulders, and triceps.',
             sets: '3 sets of 10 reps',
-            video: "https://youtube.com/embed/At8PRTDDhrU?si=yKPPb-f8Nw0_SvFt",
+            video: "https://youtube.com/embed/8xZquzWT4w8?si=GN8uO6ZxOMLHGJTK",
           },
           {
             name: 'Bodyweight Squats',
