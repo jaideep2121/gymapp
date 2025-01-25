@@ -1,4 +1,4 @@
-'use client'
+yr'use client'
 
 import { ChevronDown, Dumbbell } from 'lucide-react';
 import React, { useState } from 'react'
@@ -21,7 +21,7 @@ const page = () => {
             name: 'Arnold Press',
             description: 'Fundamental lower body exercise for legs and core strength.',
             sets: '3 sets of 15 reps',
-            video: 'https://youtu.be/embed/LjAh3pOnxZE?si=aziPuXLhAv5YeOy7,
+            video: "https://youtu.be/embed/LjAh3pOnxZE",
           },
           // Add more beginner exercises
         ],
