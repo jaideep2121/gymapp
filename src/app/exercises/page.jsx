@@ -18,10 +18,10 @@ const page = () => {
             video: "https://youtube.com/embed/8xZquzWT4w8?si=GN8uO6ZxOMLHGJTK",
           },
           {
-            name: 'Bodyweight Squats',
+            name: 'Arnold Press',
             description: 'Fundamental lower body exercise for legs and core strength.',
             sets: '3 sets of 15 reps',
-            video: 'https://www.youtube.com/embed/n_xLyzPEX7A',
+            video: 'https://youtu.be/embed/LjAh3pOnxZE?si=aziPuXLhAv5YeOy7,
           },
           // Add more beginner exercises
         ],
