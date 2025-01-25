@@ -21,7 +21,7 @@ const page = () => {
             name: 'Arnold Press',
             description: 'Fundamental lower body exercise for legs and core strength.',
             sets: '3 sets of 15 reps',
-            video: "https://youtu.be/embed/LjAh3pOnxZE",
+            video: "https://youtu.be/embed/LjAh3pOnxZE?si=aziPuXLhAv5YeOy7",
           },
           // Add more beginner exercises
         ],
