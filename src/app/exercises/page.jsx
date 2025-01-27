@@ -19,11 +19,11 @@ const page = () => {
           },
           {
             name: 'Arnold Press',
-            description: 'Fundamental lower body exercise for legs and core strength.',
+            description: 'exercise for the shoulder muscles and is a variation of shoulder press',
             sets: '3 sets of 15 reps',
-            video: "https://youtu.be/embed/LjAh3pOnxZE?si=aziPuXLhAv5YeOy7",
+            video: 'https://youtube.com/embed/LjAh3pOnxZE?si=aaWjH2dPuGfJHF6B'
           },
-          // Add more beginner exercises
+        
         ],
         intermediate: [
           {
