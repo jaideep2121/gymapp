@@ -1,4 +1,4 @@
-yr'use client'
+'use client'
 
 import { ChevronDown, Dumbbell } from 'lucide-react';
 import React, { useState } from 'react'
@@ -24,6 +24,7 @@ const page = () => {
             video: 'https://youtube.com/embed/LjAh3pOnxZE?si=aaWjH2dPuGfJHF6B'
           },
         
+      
         ],
         intermediate: [
           {
